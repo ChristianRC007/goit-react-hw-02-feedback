@@ -1,0 +1,11 @@
+@import 'styles/shared.scss';
+
+.stats-list {
+  @extend %list;
+
+  font-size: 25px;
+
+  &__item {
+    margin-bottom: 8px;
+  }
+}
